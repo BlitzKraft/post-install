@@ -7,3 +7,5 @@ A generator script for creating the install lists is also included. Written in b
 
 ## Todo
 [ ] Restore rc files from the dotfiles repo or similar.
+[ ] Install ruby gems from the list too.
+
