@@ -1,0 +1,31 @@
+/home/bk
+├── api@0.3.1
+├── browser-request@0.3.3
+├── browser-serialport@2.0.2
+├── browserify@11.0.0
+├── config@1.14.0
+├── config-browserify@1.0.4
+├── cylon@1.0.0 invalid
+├── cylon-api-http@0.3.0
+├── cylon-firmata@0.22.0
+├── cylon-gpio@0.26.0
+├── cylon-i2c@0.22.0
+├── cylon-sphero@0.21.0
+├── express@4.10.6
+├── jsonresume-theme-stackoverflow@1.0.3
+├── less@2.5.3
+├── markdown-styles@3.1.4
+├── node-config@0.0.2
+├── node-inspector@0.11.1
+├── node-webkit@0.0.0
+├── npm@3.5.3
+├── nw@0.12.2
+├── request@2.51.0
+├── serialport@1.7.4
+├── spark@0.2.4
+├── sparkjs@0.2.4
+├── spheron@0.0.3
+├── spheron-accel@0.0.1
+├── xhr@2.0.0
+└── xmlhttprequest@1.6.0
+
