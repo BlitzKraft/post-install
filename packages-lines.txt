@@ -2482,6 +2482,7 @@ user-setup
 util-linux
 uuid-dev
 uuid-runtime
+vagrant
 valac
 vbetool
 vim
@@ -2490,6 +2491,7 @@ vim-tiny
 vineyard
 vino
 virtualbox
+virtualbox-dkms
 virtualbox-guest-dkms
 virtualbox-guest-utils
 virtualbox-guest-x11
