@@ -21,6 +21,7 @@ apng2gif
 apngasm
 apngdis
 apngopt
+apport
 apt
 apt-clone
 apt-transport-https
@@ -50,6 +51,7 @@ atop
 audio-recorder
 aumix-common
 autoconf
+autoconf-archive
 automake
 autotools-dev
 avahi-autoipd
@@ -64,6 +66,7 @@ base-files
 base-passwd
 bash
 bash-completion
+bastet
 bc
 beep
 bind9-host
@@ -73,6 +76,7 @@ bison
 bitlbee
 bitlbee-dev
 bitlbee-facebook
+blt-dev
 blueman
 bluetooth
 bluez
@@ -145,6 +149,7 @@ cpp
 cpp-4.8
 cpufrequtils
 cracklib-runtime
+crash
 crda
 cron
 cryptsetup
@@ -200,6 +205,7 @@ docbook-xml
 dosfstools
 doxygen
 dpkg
+dpkg-dev
 dpkg-repack
 dropbox
 dstat
@@ -220,6 +226,7 @@ enchant
 entr
 eog
 eog-plugins
+epson-inkjet-printer-201211w
 erlang-base
 esound-common
 espeak-data
@@ -228,11 +235,14 @@ evince-common
 evolution-data-server
 evolution-data-server-common
 exiftran
+expect
 fakeroot
 famfamfam-flag-png
 fbcat
 fbi
 fbterm
+fdupes
+feedgnuplot
 feh
 fetchmail
 ffmpeg
@@ -248,6 +258,7 @@ flex
 fluxgui
 folder-color-switcher
 folks-common
+font-manager
 fontconfig
 fontconfig-config
 fonts-dejavu
@@ -290,12 +301,14 @@ fortunes-min
 four-in-a-row
 freecad
 freeglut3-dev
+freelancer-desktop-app
 freerdp-x11
 friendly-recovery
 fritzing
 ftp
 fuse
 g++
+g++-multilib
 gawk
 gcc
 gcc-4.8
@@ -303,6 +316,7 @@ gcc-4.8-base
 gcc-4.8-base:i386
 gcc-4.9-base
 gcc-4.9-base:i386
+gcc-multilib
 gccgo-go
 gconf-editor
 gconf-service
@@ -323,11 +337,13 @@ gerbv
 getdeb-repository
 gettext
 gettext-base
+gfortran
 ghc
 ghostscript
 ghostscript-x
 gif2apng
 gif2png
+giggle
 gimp
 gimp-data
 gimp-gap
@@ -403,6 +419,7 @@ glib-networking
 glib-networking-common
 glib-networking-services
 glib-networking:i386
+glmark2
 gmpc
 gnoduino
 gnome-accessibility-themes
@@ -444,10 +461,13 @@ gnome-themes-standard
 gnome-themes-standard-data
 gnome-user-share
 gnupg
+gnuplot
 gnutls-bin
+google-chrome-stable
 google-musicmanager-beta
 google-talkplugin
 gpa
+gpart
 gparted
 gperf
 gpgv
@@ -507,6 +527,7 @@ gtkam
 gtkvncviewer
 gucharmap
 guile-2.0-libs
+gunicorn
 gvfs
 gvfs-backends
 gvfs-bin
@@ -541,6 +562,7 @@ i3lock
 i3status
 ia32-libs
 iagno
+iamerican
 ibus-gtk:i386
 icedtea-7-jre-jamvm
 icedtea-7-plugin
@@ -581,8 +603,10 @@ irqbalance
 isc-dhcp-client
 isc-dhcp-common
 iso-codes
+ispell
 iw
 java-common
+jekyll
 jfsutils
 joystick
 jq
@@ -661,6 +685,7 @@ libatk1.0-0
 libatk1.0-0:i386
 libatk1.0-data
 libatkmm-1.6-1
+libatlas-base-dev
 libatomic1
 libatspi2.0-0
 libattr1
@@ -682,9 +707,11 @@ libavahi-core7
 libavahi-glib1
 libavc1394-0
 libavc1394-0:i386
+libavcodec-dev
 libavcodec54
 libavdevice53
 libavfilter3
+libavformat-dev
 libavformat-extra-54
 libavformat54
 libavresample1
@@ -713,6 +740,7 @@ libbsd0
 libburn4
 libbz2-1.0
 libbz2-1.0:i386
+libbz2-dev
 libc-bin
 libc-dev-bin
 libc6
@@ -795,6 +823,7 @@ libcupsmime1
 libcupsppdc1
 libcurl3-gnutls
 libcurl3:i386
+libcurl4-gnutls-dev
 libcwidget3
 libdaemon0
 libdatrie1
@@ -887,6 +916,7 @@ libfakeroot
 libfarstream-0.1-0
 libffi-dev
 libffi6
+libffi6-dbg
 libffi6:i386
 libfftw3-dev
 libfftw3-double3
@@ -1007,7 +1037,6 @@ libgnutls-openssl27
 libgnutls26
 libgnutls26:i386
 libgnutls28
-libgnutls28-dev
 libgoa-1.0-0b
 libgoa-1.0-common
 libgomp1
@@ -1130,6 +1159,7 @@ libitm1
 libiw30
 libjack-jackd2-0
 libjack-jackd2-0:i386
+libjasper-dev
 libjasper1
 libjasper1:i386
 libjavascriptcoregtk-1.0-0
@@ -1142,6 +1172,7 @@ libjpeg-dev
 libjpeg-turbo8
 libjpeg-turbo8:i386
 libjpeg8
+libjpeg8-dev
 libjpeg8:i386
 libjson-c2
 libjson-c2:i386
@@ -1331,6 +1362,7 @@ libopencore-amrwb0
 libopencv-calib3d2.4
 libopencv-contrib2.4
 libopencv-core2.4
+libopencv-dev
 libopencv-features2d2.4
 libopencv-flann2.4
 libopencv-highgui2.4
@@ -1484,7 +1516,9 @@ libqt5sql5
 libqt5sql5-sqlite
 libqt5test5
 libqt5webkit5
+libqt5webkit5-dev
 libqt5widgets5
+libqt5x11extras5-dev
 libqt5xml5
 libqtassistantclient4
 libqtcore4
@@ -1502,6 +1536,7 @@ librasqal3
 libraw1394-11
 libraw1394-11:i386
 librdf0
+libreadline-dev
 libreadline5
 libreadline6
 libreadline6-dev
@@ -1627,6 +1662,7 @@ libstdc++5:i386
 libstdc++6
 libstdc++6:i386
 libsub-name-perl
+libswscale-dev
 libswscale2
 libsystemd-daemon0
 libsystemd-journal0
@@ -1661,10 +1697,13 @@ libtheora0
 libtheora0:i386
 libtidy-0.99-0
 libtiff-tools
+libtiff4-dev
 libtiff5
+libtiff5-dev
 libtiff5:i386
 libtimedate-perl
 libtimezonemap1
+libtinfo-dev
 libtinfo5
 libtinfo5:i386
 libtool
@@ -1700,6 +1739,7 @@ libuuid1
 libuuid1:i386
 libv4l-0
 libv4l-0:i386
+libv4l-dev
 libv4lconvert0
 libv4lconvert0:i386
 libva-x11-1
@@ -1844,6 +1884,7 @@ libxshmfence1
 libxshmfence1:i386
 libxslt1.1
 libxslt1.1:i386
+libxss-dev
 libxss1
 libxss1:i386
 libxt6
@@ -1872,6 +1913,7 @@ libzvbi-common
 libzvbi0
 lightsoff
 lintian
+linux-crashdump
 linux-firmware
 linux-generic
 linux-generic-tuxonice
@@ -1919,6 +1961,7 @@ mawk
 mc
 mdm
 media-player-info
+megasync
 memtest86+
 mencoder
 mercurial
@@ -1983,6 +2026,7 @@ mono-runtime
 mono-runtime-common
 mono-runtime-sgen
 monodevelop
+moon-buggy
 mount
 mountall
 mousetweaks
@@ -1998,8 +2042,10 @@ mtp-tools
 mtr-tiny
 muffin-common
 multiarch-support
+multitail
 mutt
 mutt-patched
+myrepos
 myspell-en-au
 myspell-en-gb
 myspell-en-za
@@ -2027,6 +2073,7 @@ network-manager
 network-manager-gnome
 network-manager-pptp
 network-manager-pptp-gnome
+nfs-kernel-server
 ngrep
 nmap
 nmon
@@ -2064,13 +2111,17 @@ openssh-server
 openssl
 optipng
 oracle-java8-installer
+oranchelo-icon-theme
 os-prober
 osmc-installer
 p11-kit
 p11-kit-modules
 p7zip
 pacman4console
+pandoc
+paprefs
 parted
+pass
 passwd
 patch
 patchutils
@@ -2083,6 +2134,8 @@ perl-base
 perl-modules
 perl-tk
 phatch
+php5-cli
+picocom
 pidgin
 pidgin-data
 pidgin-libnotify
@@ -2108,7 +2161,6 @@ pnscan
 policykit-1
 policykit-1-gnome
 policykit-desktop-privileges
-popcorn-time
 poppler-data
 poppler-utils
 postgresql
@@ -2188,6 +2240,7 @@ python-mako
 python-markupsafe
 python-matplotlib
 python-minimal
+python-mox3
 python-nemo
 python-notify
 python-ntdb
@@ -2204,6 +2257,7 @@ python-pil
 python-pip
 python-piston-mini-client
 python-pkg-resources
+python-ply
 python-protobuf
 python-pyatspi
 python-pyatspi2
@@ -2292,16 +2346,22 @@ python3-xkit
 python3.4
 python3.4-minimal
 qdbus
+qemu
+qemu-system
+qemu-user
+qemu-utils
 qpdf
 qt-at-spi
 qt4-dev-tools
 qt4-qmake
 qt5-default
+qt5-qmake
 qtchooser
 qtcore4-l10n
 qtcreator
 qtoctave
 quadrapassel
+quilt
 radeontool
 radio
 rails
@@ -2318,6 +2378,7 @@ reiserfsprogs
 remind
 resolvconf
 rfkill
+robotfindskitten
 rpm
 rpm2cpio
 rsync
@@ -2361,6 +2422,8 @@ simple-scan
 simplescreenrecorder
 skype
 sl
+slack-desktop
+slurm
 smbclient
 sni-qt
 socat
@@ -2370,6 +2433,7 @@ sox
 spark
 speech-dispatcher
 speech-dispatcher-audio-plugins
+speedometer
 sqlite
 sqlite3
 sqlitebrowser
@@ -2380,6 +2444,7 @@ strace
 sublime-text-installer
 suckless-tools
 sudo
+sudoku
 swell-foop
 symlinks
 synaptic
@@ -2401,7 +2466,7 @@ tcl8.5
 tcpd
 tcpdump
 tdb-tools
-teamviewer
+teamviewer:i386
 telnet
 texlive
 texlive-fonts-extra
@@ -2411,7 +2476,9 @@ thunderbird
 thunderbird-gnome-support
 thunderbird-locale-en
 thunderbird-locale-en-us
+tig
 time
+tk-dev
 tkpng
 toilet
 tomboy
@@ -2423,6 +2490,7 @@ totem-common
 totem-mozilla
 totem-plugins
 totem-plugins-extra
+tpp
 traceroute
 transmission
 transmission-cli
@@ -2430,7 +2498,6 @@ transmission-common
 transmission-daemon
 transmission-gtk
 tree
-tribler
 tsconf
 ttf-ancient-fonts
 ttf-dejavu
@@ -2451,7 +2518,6 @@ tzdata-java
 ubuntu-drivers-common
 ubuntu-extras-keyring
 ubuntu-keyring
-ubuntu-minimal
 ubuntu-restricted-addons
 ubuntu-restricted-extras
 ubuntu-settings
@@ -2486,8 +2552,6 @@ vagrant
 valac
 vbetool
 vim
-vim-common
-vim-tiny
 vineyard
 vino
 virtualbox
@@ -2509,12 +2573,12 @@ wbritish
 wcstools
 weather-util
 weather-util-data
-webcamstudio
 weechat
 weechat-curses
 weechat-doc
 weechat-scripts
 wget
+whereami
 whiptail
 whois
 winetricks
@@ -2555,6 +2619,7 @@ xinput
 xkb-data
 xml-core
 xorg
+xorg-dev
 xorg-docs-core
 xsel
 xserver-common
